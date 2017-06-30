@@ -1,0 +1,18 @@
+1.This is the home screen or splash screen of Django foods.Has a picture
+  and will be on for about 2-3 secs.
+2.This screen allow the user to shop as a guest or as a member and there are
+  two buttons that allow the user to use these functions.The "GUEST" and 
+  "MEMBER" button.
+3.This screen displays the food menu and the user can pick any item here by
+  clicking or touching an item or clicking the add to cart button below.The 
+  user can also.View cart by pressing the cart icon at the top right corner
+  of the screen.
+4.This screen displays the cart.The user can proceed to the mode of payment
+  or go back to the food menu.
+5.This screen gives the user the option of choosing any mode of payment and
+  allows the user to confirm an order.
+6.This screen is for users who are members and want to sign in and users who
+  want to be members who can register by signing up on the app.
+7.This screen is for members who want to sign in.Here they can type in their 
+  username and password to log in.
+8.This is the screen for new members to register.
