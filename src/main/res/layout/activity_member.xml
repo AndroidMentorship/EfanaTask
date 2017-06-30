@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:background="@color/accent"
+                tools:context="com.example.android.lospollos.MemberActivity"
+                android:id="@+id/memberScreen">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="username or email" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:text="password"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SIGN IN"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/loginButton"
+        android:background="@color/primary_light"
+        android:layout_below="@+id/editText2"
+        android:layout_toLeftOf="@+id/signUpButton"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="New member ?"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/signUpButton"
+        android:layout_alignBottom="@+id/signUpButton"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"/>
+
+    <Button
+        android:id="@+id/signUpButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_marginBottom="52dp"
+        android:background="@color/primary_light"
+        android:onClick="registerMember"
+        android:text="SIGN UP" />
+</RelativeLayout>
